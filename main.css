@@ -16,8 +16,8 @@ padding: 0;
    }
 
    body {
-      background: rgba(11, 11, 13, 0.5)
-      url();
+      background: #0b0b0d80
+      url(img/Background.png);
 background-repeat: no-repeat;
 background-size: cover;
    }
@@ -52,6 +52,11 @@ background-size: cover;
 .item  .active:hover{
    color: blueviolet;
 }
+
+.support  li:hover{
+   color: #F2C94C;
+}
+
 
 .main
 {
@@ -96,10 +101,74 @@ background-size: cover;
    margin-bottom: 50px;
 }
 
+.item1 {
+   background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-1.png);
+   height: 156px; 
+  width: 259px;
+}
+
+.item1:hover {
+    background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-1.png);
+    height: 156px; 
+  width: 259px;
+}
+   
+.item2 {
+   background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-2.png);
+   height: 156px; 
+  width: 259px;
+}
+
+.item2:hover {
+    background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-2.png);
+    height: 156px; 
+  width: 259px;
+}
+
+.item3 {
+   background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-3.png);
+   height: 156px; 
+  width: 259px;
+}
+
+.item3:hover {
+    background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-3.png);
+    height: 156px; 
+  width: 259px;
+}
+
+.item4 {
+   background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-4.png);
+   height: 156px; 
+  width: 259px;
+}
+
+.item4:hover {
+    background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-4.png);
+    height: 156px; 
+  width: 259px;
+}
+
+.news{
+   display: flex;
+}
+.item6 {
+   background: url(img/Downward.svg);
+   background-repeat: no-repeat;
+   height: 34px; 
+  width: 37px;
+}
+
+.item6:hover {
+    background: url(img/YDownward.svg);
+    background-repeat: no-repeat;
+    height: 34px; 
+  width: 37px;
+}
 .social-block {
    position: absolute;
    background-color: #a276ff;
-   width: 200px;
+   /* width: 200px; */
    display: flex;
    justify-content: space-around;
    padding-top: 15px;
@@ -107,7 +176,18 @@ background-size: cover;
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
    right: 0;
+   background: url(img/Social.svg);
+   background-repeat: no-repeat;
+   height: 73px; 
+   width: 232px;
    /* margin-left: 1000px; */
+}
+
+.social-block:hover {
+   background: url(img/YSocial.svg);
+   background-repeat: no-repeat;
+   height: 73px; 
+   width: 232px
 }
 
 .info a {
@@ -124,7 +204,7 @@ background-size: cover;
 
 .zg-center
 {
-   text-align: center;
+   
    margin-top: 10px;
 }
 
@@ -133,9 +213,13 @@ background-size: cover;
    font-size: 48px;
 }
 
+.zg-center-1:hover{
+   color: #F2C94C;
+}
+
 .text-center{
 
   
-   class="zg-center-1"
+  
    margin-bottom: 50px;
 }

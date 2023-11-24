@@ -57,6 +57,7 @@ background-size: cover;
 {
    width: 1090;
    position: relative;
+   color: #fff;
   }
 
 .main-2
@@ -66,7 +67,7 @@ background-size: cover;
 }
 
 .main-container {
-   color: #fff;
+  
    font-family: Arial, Helvetica, sans-serif;
    margin-top: 100px;
 }

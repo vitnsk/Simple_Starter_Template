@@ -56,6 +56,7 @@ background-size: cover;
 .main
 {
    width: 1090;
+   position: relative;
   }
 
 .main-2
@@ -67,7 +68,7 @@ background-size: cover;
 .main-container {
    color: #fff;
    font-family: Arial, Helvetica, sans-serif;
- 
+   margin-top: 100px;
 }
 .main-container-2{
    color: #000;
@@ -95,7 +96,7 @@ background-size: cover;
 }
 
 .social-block {
-   position: relative;
+   position: absolute;
    background-color: #a276ff;
    width: 200px;
    display: flex;
@@ -105,7 +106,7 @@ background-size: cover;
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
    right: 0;
-   margin-left: 1000px;
+   /* margin-left: 1000px; */
 }
 
 .info a {
@@ -123,10 +124,17 @@ background-size: cover;
 .zg-center
 {
    text-align: center;
+   margin-top: 10px;
 }
+
+.zg-center-1 {
+   color: blueviolet;
+   font-size: 48px;
+}
+
 .text-center{
 
   
-   margin-top: 50px;
+   class="zg-center-1"
    margin-bottom: 50px;
 }

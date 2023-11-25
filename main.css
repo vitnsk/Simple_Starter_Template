@@ -38,11 +38,12 @@ body {
 }
 
 .aside-block li{
-   padding-top: 40px;
+   margin-top: 40px;
 }
 
 .active{
    color: blueviolet;
+   border-left: 3px solid blueviolet;
 }
 
 .item  li:hover{

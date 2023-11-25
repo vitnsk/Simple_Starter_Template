@@ -3,10 +3,9 @@ margin: 0;
 padding: 0;
 }
 body {
-   /* background: #0b0b0d80 */
    background: rgb(5,7,41) url(img/Background.png);
-background-repeat: no-repeat;
-background-size: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .item,.support{
@@ -16,11 +15,8 @@ background-size: cover;
    .wrapper {
       width: 1440px;
       margin: 0 auto;
-      display: flex;
-    
-   }
-
- 
+      display: flex;    
+   } 
 
 .aside-block
 {
@@ -31,19 +27,22 @@ background-size: cover;
    text-align: center;
    padding: 70 50 100 50;
    text-transform: uppercase;
-   font-family: Arial, Helvetica, sans-serif;
+   
+   font-family: Roboto, Helvetica, sans-serif;
    letter-spacing: 7px;
+  
+}
+.logo{
+   margin-top: 50px;  
 }
 
 .aside-block li{
    padding-top: 40px;
 }
 
-
 .active{
    color: blueviolet;
 }
-
 
 .item  li:hover{
    color: #F2C94C;
@@ -54,17 +53,15 @@ background-size: cover;
 }
 
 .support{
-   margin-top: 100px;
+   margin-top: 200px; 
 }
 
-
 .support  li:hover{
-   color: #F2C94C;
-   
+   color: #F2C94C;   
 }
 
 .copy{
-   margin-top: 100px;
+   margin-top: 150px;
    font-size: 8px;
    letter-spacing: normal;
 }
@@ -75,41 +72,41 @@ background-size: cover;
    width: 1090;
    position: relative;
    color: #fff;
-  
+   font-family: Arial, Helvetica, sans-serif;
   }
 
 .main-2
-{ color: #fff;
-   /* width: 1090; */
+{ color: #fff;   
    display: flex;
    background-color: #fff;
    border-radius: 21px;
-
    margin-left: 100px;
    margin-top: 100px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-container {
   
    font-family: Arial, Helvetica, sans-serif;
    margin-top: 100px;
-   margin-left: 70px;
+   margin-left: 200px;
+   width: 950px;
 }
 .main-container-2{
-   /* box-sizing: border-box; */
+   
    color: #000;
    font-family: Arial, Helvetica, sans-serif;
-   padding-top: 100px;
+   padding-top: 80px;
    padding-left: 50px;
-   width: 500px;
-   /* height: 400px; */
-   /* background-color: #816c6c; */
+   width: 500px;  
 }
 
 .hr-line{ 
    width:50px;  
    background-color:#a276ff; 
    height: 5px;
+   margin-top: 30px;
+   margin-bottom: 20px;
 }
 .gread-container h1 {
    text-align: center;
@@ -122,64 +119,81 @@ background-size: cover;
 }
 .cards {   
     display: grid;
-   grid-template-columns: repeat(4,200px);
+   grid-template-columns: repeat(4,150px);
    gap: 100px 100px;
-   justify-content: center;
-   margin-top: 50px;
+   justify-content: left;
+   margin-top: 100px;
    margin-bottom: 50px;
+     
 }
 
 .item1 {
    background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-1.png);
-   height: 156px; 
-  width: 259px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 126px; 
+    width: 229px;
 }
 
 .item1:hover {
     background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-1.png);
-    height: 156px; 
-  width: 259px;
-}
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 126px; 
+    width: 229px;
+ }
+
    
 .item2 {
    background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-2.png);
-   height: 156px; 
-  width: 259px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 126px; 
+    width: 229px;
 }
 
 .item2:hover {
     background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-2.png);
-    height: 156px; 
-  width: 259px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 126px; 
+    width: 229px;
 }
 
 .item3 {
    background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-3.png);
-   height: 156px; 
-  width: 259px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 126px; 
+    width: 229px;
 }
 
 .item3:hover {
     background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-3.png);
-    height: 156px; 
-  width: 259px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 126px; 
+    width: 229px;
 }
 
 .item4 {
    background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-4.png);
-   height: 156px; 
-  width: 259px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 126px; 
+    width: 229px;
 }
 
 .item4:hover {
     background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-4.png);
-    height: 156px; 
-  width: 259px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 126px; 
+    width: 229px;
 }
 
 .news{
    display: flex;
-   /* font-family: Oswald; */
    font-size: 42;
    margin-top: 100px;
 }
@@ -198,23 +212,21 @@ background-size: cover;
     height: 34px; 
   width: 37px;
 }
-.social-block {
+.social-block {  
    position: absolute;
-   background-color: #a276ff;
-   /* width: 200px; */
+   background-color: #a276ff;  
    display: flex;
    justify-content: space-around;
    padding-top: 15px;
    padding-bottom: 15px;
    border-bottom-left-radius: 15px;
-   border-bottom-right-radius: 15px;
-   right: 0;
+   border-bottom-right-radius: 15px;   
    background: url(img/Social.svg);
    background-repeat: no-repeat;
+   right: 0;
    height: 73px; 
-   width: 232px;
-   /* margin-left: 1000px; */
-}
+   width: 232px;  
+   }
 
 .social-block:hover {
    background: url(img/YSocial.svg);
@@ -229,7 +241,7 @@ background-size: cover;
    color: #fff;
    text-decoration: none;
    border-radius: 15px;
-   margin-bottom: 200px;
+  
    
 }
 .info a:hover {
@@ -237,14 +249,15 @@ background-size: cover;
 }
 
 .zg-center
-{
-   
-   margin-top: 10px;
+{   
+   padding-top: 100px;
+   font-size: 40px;
 }
 
 .zg-center-1 {
    color: blueviolet;
-   font-size: 48px;
+   font-size: 80px;
+   padding-bottom: 10px;
 }
 
 .zg-center-1:hover{
@@ -252,16 +265,39 @@ background-size: cover;
 }
 
 .text-center{  
+   font-size: 20px;
+   font-weight: normal;
+   text-align: justify;
+   line-height: 1.5;
+   padding-right: 170px;
    margin-bottom: 50px;
 }
 
-.and{
-   font-size: 29px;
+.img-container{
+   margin-top: 60px;
 }
 
-.photo-item{
- 
+
+.and{
+   font-size: 24px;
+   
+}
+.item5 {
+   width: 80%;
+   height: auto;
+   margin-left: 70px;
+ }
+
+.photo-item{ 
    margin-left: 180px;
    font-size: 10px;
-   font-style: normal;
+   font-style: normal;   
+}
+
+p{
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+.lorem{
+   font-weight: bold;
 }

@@ -6,6 +6,7 @@ body {
    background: rgb(5,7,41) url(img/Background.png);
    background-repeat: no-repeat;
    background-size: cover;
+   
 }
 
 .item,.support{
@@ -26,9 +27,9 @@ body {
    color: #fff;
    text-align: center;
    padding: 70 50 100 50;
-   text-transform: uppercase;
-   
-   font-family: Roboto, Helvetica, sans-serif;
+   text-transform: uppercase;   
+   font-family: roboto, Arial, Helvetica, sans-serif;
+   src: url('fonts/Roboto-Regular.ttf') format("truetype");
    letter-spacing: 7px;
   
 }
@@ -72,7 +73,7 @@ body {
    width: 1090;
    position: relative;
    color: #fff;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;  
   }
 
 .main-2
@@ -82,20 +83,19 @@ body {
    border-radius: 21px;
    margin-left: 100px;
    margin-top: 100px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: roboto, Arial, Helvetica, sans-serif;
+   src: url('fonts/Roboto-Regular.ttf') format("truetype")
+
 }
 
 .main-container {
-  
-   font-family: Arial, Helvetica, sans-serif;
    margin-top: 100px;
    margin-left: 200px;
-   width: 950px;
+      width: 950px;
 }
 .main-container-2{
    
-   color: #000;
-   font-family: Arial, Helvetica, sans-serif;
+   color: #000;   
    padding-top: 80px;
    padding-left: 50px;
    width: 500px;  

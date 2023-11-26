@@ -44,8 +44,8 @@ padding: 0;
 
 
 .logo:hover {
-   background: url(img/ylogo.svg);
-   background-repeat: no-repeat;
+  background: url(img/ylogo.svg);
+  background-repeat: no-repeat;
   background-size: contain;
   height: 44px; 
   width: 137px;
@@ -54,18 +54,21 @@ padding: 0;
    margin-top: 40px;
 }
 
-.active{
+.active a{
    color: blueviolet;
    border-left: 3px solid blueviolet;
+   padding: 0 150px 0 130px;
+   text-decoration: none;   
 }
 
 .item  li:hover{
    color: #F2C94C;
 }
 
-.item  .active:hover{
-   color: l#F2C94C;
-   border-left: 3px solid #F2C94C;   
+.item  .active a:hover{
+   color: #F2C94C;
+   border-left: 3px solid #F2C94C;  
+   padding: 0 150px 0 130px;
 }
 
 .support{
@@ -108,8 +111,7 @@ padding: 0;
    margin-bottom: 70px;
    margin-top: 100px;
    margin-left: 100px;
-   width: 900px;
- 
+   width: 900px; 
 }
 .main-container-2{   
    color: #000;  

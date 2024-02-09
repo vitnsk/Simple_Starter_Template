@@ -35,7 +35,7 @@ body{
    padding: 70 50 100 50;
    text-align: center;
    text-transform: uppercase;    
-   width: 350px;
+   width: 20%;
    
 }
 
@@ -58,8 +58,41 @@ body{
   height: 44px; 
   width: 137px;
 }
+
+@media screen and (max-width: 899px)  {
+
+   .logo{   
+      background: url(img/logo.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: block;
+      /* justify-content: space-around; */
+      margin: 70px auto; 
+      height: 44px; 
+      width: 80px;
+   }
+   
+   
+   .logo:hover {
+     background: url(img/ylogo.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 44px; 
+     width: 80px;
+   }
+
+}
+
+
 .aside-block li{
    margin-top: 40px;
+}
+@media screen and (max-width: 899px)  {
+   .aside-block li{
+      margin-top: 40px;
+font-size: 14px;
+
+   }
 }
 
 .active a{
@@ -81,10 +114,19 @@ body{
 .support{
    margin-top: 200px; 
 }
+@media screen and (max-width: 899px)  {
+   .support li{      
+      font-size: 10px;
+   }
+   .item  li{
+      font-size: 10px;
+   }
+   }
 
 .support  li:hover{
    color: #F2C94C;   
 }
+
 
 .copy{  
    font-size: 8px;
@@ -150,17 +192,18 @@ body{
    gap: 100px 100px;
    grid-template-columns: repeat(4,150px); 
    justify-content: left;
-   margin-bottom: 50px;
+   font-size: 10px;
    margin-top: 100px;        
 }
 
 @media screen and (max-width: 1499px)  {
    .cards {   
       display: grid;
-      gap: 100px 100px;
-      grid-template-columns: repeat(3,150px);  
+      gap: 50px 100px;
+      grid-template-columns: repeat(3,150px); 
+     
       justify-content: left;
-      margin-bottom: 50px;
+      font-size: 10px;
       margin-top: 100px;        
    }
 
@@ -168,7 +211,7 @@ body{
 @media screen and (max-width: 1249px)  {
    .cards {   
       display: grid;
-      gap: 100px 100px;
+      gap: 50px 100px;
       grid-template-columns: repeat(2,150px);      
       justify-content: left;
       margin-bottom: 50px;
@@ -179,9 +222,9 @@ body{
 @media screen and (max-width: 899px)  {
    .cards {   
       display: grid;
-      gap: 100px 100px;
+      gap: 50px 100px;
       grid-template-columns: repeat(1,150px);      
-      justify-content: left;
+      justify-content: center;
       margin-bottom: 50px;
       margin-top: 100px;        
    }
@@ -289,7 +332,7 @@ body{
    background-size: contain;
    right: 0;
    height: 33px; 
-   width: 192px;  
+   width: 20%;  
    }
 
 .social-block:hover {
@@ -297,7 +340,7 @@ body{
    background-repeat: no-repeat;
    background-size: contain;
    height: 33px; 
-   width: 192px; 
+   width: 20%;   
 }
 
 .info a {
@@ -311,7 +354,20 @@ body{
 .info a:hover {
    border:2px solid #F2C94C;
 }
-
+@media screen and (max-width: 899px)  {
+   .info a {
+      border: 2px solid #fff;
+      border-radius: 15px;
+      color: #fff;
+      padding: 2% 10% 2% 10%;   
+      text-decoration: none;   
+      margin-left: 35%;
+   }
+   
+   .info a:hover {
+      border:2px solid #F2C94C;
+   }
+}
 .zg-center{   
    font-size: 2.5vw;
    padding-top: 100px;   
@@ -336,7 +392,18 @@ body{
    padding-right: 5%;
    margin-bottom: 50px;
 }
+@media screen and (max-width: 899px)  {
+   .text-center{ 
+      font-size: 12px;
+      font-weight: normal;
+      text-align: justify;
+      line-height: 1.5;
+      /* padding-right: 170px; */
+      padding-right: 5%;
+      margin-bottom: 50px;
+   }
 
+}
 .img-container{
    margin-top: 60px;   
 }
@@ -360,6 +427,13 @@ body{
 p{  
    font-size: 20px;
    margin-bottom: 20px; 
+}
+
+@media screen and (max-width: 899px)  {
+   p5{  
+      font-size: 12px;
+      /* margin-bottom: 20px;  */
+   }
 }
 
 .lorem{

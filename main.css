@@ -179,6 +179,18 @@ font-size: 14px;
    margin-left: 10%;
    width: 100%; 
 }
+@media screen and (max-width: 899px)  {
+
+   .main-container {
+      margin-bottom: 70px;
+      margin-top: 2px;
+      margin-left: 10%;
+      width: 100%; 
+   }
+
+}
+
+
 .main-container-2{   
    color: #000;  
    margin-bottom: 10px;
@@ -375,9 +387,10 @@ font-size: 14px;
       border: 2px solid #fff;
       border-radius: 15px;
       color: #fff;
-      padding: 2% 10% 2% 10%;   
+      padding: 10px 30px 10px 30px;   
       text-decoration: none;   
-      margin-left: 18%;
+      margin-left: 23%;
+      
    }
    
    .info a:hover {
